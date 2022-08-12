@@ -1,0 +1,839 @@
+/*************HOME************/
+.home__wrap {
+  grid-area: main;
+  height: 100%;
+}
+
+.header__wrap {
+  background: linear-gradient(to bottom, rgb(43, 3, 124, 100%), #7d01dc);
+  background: rgb(43, 3, 124, 100%);
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
+  padding: 2rem;
+  position: relative;
+  left: 5%;
+  width: 95%;
+}
+
+.first__head {
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.first__head h1 {
+  color: var(--pink);
+  font-family: var(--font-two);
+  font-size: var(--font-fifty);
+}
+
+.first__head h4 {
+  color: var(--bgColor);
+  font-family: var(--font-three);
+  font-size: var(--font-twentyOne);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.first__head h2 {
+  color: var(--orange);
+  font-size: var(--font-thirtyFour);
+}
+
+.first__head p {
+  color: var(--bgColor);
+  font-size: var(--font-twentyOne);
+  margin: 0.75rem 0 0.5rem;
+}
+
+.btn-one {
+  background: var(--black);
+  border-radius: 20px;
+  border: none;
+  border: solid 2px var(--black);
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-one);
+  font-size: calc(var(--font-twenty) + 1);
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+}
+
+.btn-one:hover {
+  background: var(--limegreen);
+  color: var(--black);
+}
+
+/*  */
+.dark__background {
+  position: absolute;
+  top: 3%;
+  width: 100%;
+  height: 21%;
+  z-index: -2;
+  background-color: var(--black);
+  background-image: url(assets/img/invaderz-bg.webp);
+  background-size: cover;
+}
+
+/*  */
+.mission__body {
+  background-color: var(--bodyText);
+  border-left: none !important;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid var(--limegreen);
+  max-width: 95%;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission__head h2 {
+  font-family: var(--font-two);
+  font-size: var(--font-fourtyFive);
+  font-weight: 400;
+  line-height: 4rem;
+  margin: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mission__flex {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.flex__item {
+  background-color: var(--bodyText);
+  margin-top: 1rem;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.yellow {
+  background-color: var(--yellow);
+  border-radius: 0 10px 10px 0;
+  margin-right: 1rem;
+
+  /*  */
+}
+
+.flex__head {
+  background-color: var(--bodyText);
+  border-radius: 10rem;
+  display: block;
+  margin: 1rem auto 0;
+  max-width: 20rem;
+  padding: 2.8rem 0.75rem 2.2rem;
+  text-align: center;
+}
+
+.flex__head h3 {
+  color: #ff00ff;
+  font-family: var(--font-two);
+  font-size: var(--font-twentyFour);
+  text-transform: uppercase;
+}
+
+.flex__head h3 span {
+  text-transform: capitalize;
+}
+
+.flex__head h4 {
+  color: var(--white);
+  font-family: var(--font-one);
+  font-size: var(--font-twentyOne);
+}
+
+.flex__body {
+  padding: 1rem;
+}
+
+.info__head h4 {
+  display: block;
+  font-size: var(--font-twentyOne);
+}
+
+.body__head h4 {
+  color: var(--black);
+  font-size: var(--font-twentyOne);
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+.body {
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.body p {
+  color: var(--black);
+  font-family: var(--font-three);
+  font-size: var(--font-twentyOne);
+  line-height: 1.75rem;
+}
+
+.body__footer p {
+  color: var(--black);
+  font-family: var(--font-one);
+  font-size: var(--font-twentyOne);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin: 0.75rem 0;
+  text-align: right;
+}
+
+.buttons__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 0.75rem;
+}
+
+.buttons__flex button {
+  background: var(--black);
+  border-radius: 20px;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-family: var(--font-one);
+  font-size: var(--font-twentyOne);
+  font-weight: 700;
+  margin-right: 1.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.info__body p {
+  color: #00ffff;
+  font-size: var(--font-twentyOne);
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+
+/* .home__wrap2 {
+  grid-area: main;
+  height: 100%;
+  position: relative;
+  background: #D6D6D6;
+} */
+
+
+.nft__invaders{
+  border-left: none !important;
+  min-width: 71.4375rem;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  position: relative;
+  top: -70%;
+  display: flex;
+  flex-direction: column;
+  background: #D6D6D6;
+}
+.nft__invaders .header{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.nft__invaders .header .title{
+  background: var(--black);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  text-align: center;
+  padding-left: 4rem;
+  width: 69.875rem;
+  height: 12.56rem;
+  border: 2px solid var(--limegreen);
+}
+.nft__invaders .header .title h2{
+  font-family: var(--font-two);
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+.nft__invaders .header .title h3{
+  font-family: var(--font-one);
+  font-size: 1.5rem;
+}
+.nft__invaders .invader__body{
+  width: 72.5rem;
+  background: var(--white);
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px #00000050;
+  min-height: 47.875rem;
+  padding-top: 2.3rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+.nft__invaders .invader__body h2{
+  font-size: 2.1rem;
+  font-family: var(--font-two);
+  color: var(--black);
+  text-align: center;
+}
+.nft__invaders .invader__body .row{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 4rem;
+}
+.nft__invaders .invader__body .row .col{
+  width: 45%;
+}
+.nft__invaders .invader__body .row .col img{
+  width: 20rem;
+}
+.nft__invaders .invader__body .row .col h4{
+  color: var(--black);
+  font-size: 1.5rem;
+  font-family: var(--font-one);
+  font-weight: 800;
+}
+.nft__invaders .invader__body .row .col p{
+  color: var(--black);
+  font-family: var(--font-three);
+  line-height: 1.7rem;
+  margin: 3rem 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  max-width: 28rem;
+}
+.nft__invaders .invader__body .row .col h5{
+  color: var(--black);
+  font-size: 1.1rem;
+  font-family: var(--font-three);
+  margin-bottom: 1rem;
+}
+.nft__invaders .invader__body .row .col form{
+  display: flex;
+  width: 29.25rem;
+  height: 3.125rem !important;
+  border-radius: 1rem;
+  border: 1px solid var(--black);
+  background: #f4f4f4;
+  justify-content: space-between;
+}
+.nft__invaders .invader__body .row .col form input{
+  height: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  width: 65%;
+  padding: 1.3rem;
+  font-size: 1.3rem;
+}
+.nft__invaders .invader__body .row .col form button{
+  width: 8.813rem;
+  background: var(--black);
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: var(--font-one);
+  border-radius: 1rem;
+  outline: none;
+}
+
+
+
+.nft__defenders {
+  border-left: none !important;
+  /* max-width: 71.4375rem; */
+  margin-top: 3rem;
+  padding: 2rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* nft__defenders */
+/* nft__defenders */
+/* nft__defenders */
+
+.nft__defenders {
+  background: var(--black);
+  width: 100%;
+  min-width: 72rem;
+  text-align: center;
+}
+
+.nft__defenders .header {
+  display: flex;
+  align-items: center;
+}
+
+.nft__defenders .header button {
+  width: 14rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  font-family: var(--font-one);
+  font-weight: 800;
+  color: red;
+  background: var(--white);
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  margin-right: 12rem;
+}
+
+.nft__defenders .header h2 {
+  font-family: var(--font-two);
+  color: var(--white);
+  font-size: 2.3rem;
+}
+
+.nft__defenders h3 {
+  color: var(--white);
+}
+
+.nft__defenders .body .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 70rem;
+  align-items: center;
+  min-height: 50rem;
+}
+
+.nft__defenders .body .row .col__1 {
+  width: 30%;
+}
+
+.nft__defenders .body .row .col__2 {
+  width: 35%;
+}
+
+.nft__defenders .body .row .col__2 img,
+.nft__defenders .body .row .col__1 img {
+  width: 100%;
+}
+
+/* collaboration */
+/* 
+ */
+/*  */
+.collaboration {
+  background: #858796;
+  background-image: "";
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.collaboration button {
+  width: 11.25rem;
+  background: #00000090;
+  color: var(--white);
+  height: 3.125rem;
+  border-radius: 1rem;
+  font-size: 1.23rem;
+  font-family: var(--font-one);
+  font-weight: 800;
+}
+
+.collaboration .header {
+  width: 80%;
+  border-radius: 5rem;
+  background: var(--black);
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+}
+
+.collaboration .header h1 {
+  color: #ff00ff;
+  margin-bottom: 1rem;
+  font-family: var(--font-two);
+}
+
+.collaboration .header h2 {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 2.13rem;
+}
+
+.collaboration .header h4 {
+  color: var(--white);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-family: var(--font-three);
+}
+
+.collaboration .body .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.collaboration .body .row .col1 {
+  width: 40%;
+  height: 29.56rem;
+  border-radius: 5rem;
+  background: #00000050;
+  text-align: center;
+}
+
+.collaboration .body .row .col2 {
+  width: 45%;
+  height: 29.56rem;
+  padding: 4rem 2rem;
+  border-radius: 5rem;
+  background: #00000050;
+}
+
+.collaboration .body .row .col2 h2 {
+  color: var(--white);
+  font-size: 2.23rem;
+}
+
+.collaboration .body .row .col2 h6 {
+  font-family: var(--font-three);
+  color: var(--white);
+  margin-top: 2.2rem;
+  font-weight: 400;
+  max-width: 27rem;
+}
+
+.collaboration .crypto__raggies {
+  width: 100%;
+  /* max-width: 70rem; */
+  margin: auto;
+  background: #00000050;
+  padding: 2.3rem 9rem;
+  border-radius: 5rem;
+  min-height: 45.75rem;
+}
+
+.collaboration .crypto__raggies .image {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.3rem;
+  max-width: auto;
+}
+
+.collaboration .crypto__raggies img {
+  width: 33.125rem;
+}
+
+.collaboration .crypto__raggies h4 {
+  color: var(--white);
+  font-family: var(--font-three);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.collaboration .crypto__raggies button {
+  margin-right: 2.5rem;
+}
+
+/**********INVADERS TEAM*********/
+
+.invaders__team {
+  background: var(--mainBg);
+  width: 100%;
+  /* max-width: 75rem; */
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.invaders__team .header {
+  padding: 6rem;
+}
+
+.invaders__team .header h3 {
+  color: var(--black);
+}
+
+.invaders__team .body .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.invaders__team .body .row .col {
+  width: 30%;
+}
+
+.invaders__team .body .row .col .component {
+  background-color: #dedede;
+  width: 100%;
+  height: 26.8rem;
+  border-radius: 1rem;
+  border: 1.5px solid var(--black);
+}
+
+.invaders__team .body .row .col .component .image {
+  padding-top: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: var(--white);
+  height: 14.1rem;
+}
+
+.invaders__team .body .row .col .component .image img {
+  max-height: 100%;
+}
+
+.invaders__team .body .row .col .component h6 {
+  color: var(--black);
+  margin-top: 1rem;
+}
+
+.invaders__team .body .row .col .component .title {
+  font-family: var(--font-three);
+}
+
+/*********OUR PARTNER*********/
+
+.our__partner {
+  background: var(--white);
+  padding-bottom: 7.5rem;
+}
+
+.our__partner h3 {
+  color: var(--black);
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.our__partner .header h3 {
+  margin-top: 0%;
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.our__partner .header h4 {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-family: var(--font-three);
+  color: var(--black);
+  max-width: 66rem;
+  font-size: 1.325rem;
+  text-align: center;
+}
+
+.our__partner .body .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.our__partner .body .row .col {
+  width: 30%;
+}
+
+.our__partner .body .row .col h3 {
+  color: var(--black);
+}
+
+.our__partner .body .component1,
+.our__partner .body .component3,
+.our__partner .body .component2 {
+  height: 26.813rem;
+  width: 100%;
+  background: #ff00ff;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px #00000050;
+}
+
+.our__partner .body .component2 {
+  background: #00ffff;
+}
+.our__partner .body .component3 {
+  background: #ffff00;
+}
+.our__partner .body .col h3 {
+  margin-top: 1rem;
+}
+.our__partner .body .col .image {
+  height: 12.5rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+/***********BANNER******************/
+
+.banner {
+  width: 73.313rem;
+  display: flex;
+  background: var(--limegreen);
+  border-radius: 1rem;
+  height: 28.875rem;
+  padding: 0.625rem;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.banner .info {
+  margin-left: 30px;
+}
+
+.banner .info h1 {
+  color: var(--black);
+}
+
+.banner .info h4 {
+  color: var(--black);
+  height: 14rem;
+  margin-top: 10px;
+  font-family: var(--font-three);
+}
+
+.banner img {
+  width: 24rem;
+  height: 24rem;
+}
+
+.our__partner .row2 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.our__partner .row2 .col {
+  width: 45%;
+  height: 26.813rem;
+  border-radius: 1rem;
+  background: var(--black);
+}
+
+.our__partner .row2 h3 {
+  margin-top: 10px;
+  color: var(--white);
+}
+
+.our__partner .row2 .image {
+  height: 11.875rem;
+  width: 11.875rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrap {
+  display: flex;
+  text-align: center;
+  /* width: 76rem; */
+  height: 19.5rem;
+  align-items: center;
+  background: var(--black);
+  justify-content: space-around;
+}
+.policy{
+  background: linear-gradient(#2B027C,#4C0993,  #B620E0);;
+}
+@media only screen and (min-width: 800px) {
+  .mission__flex {
+    flex-direction: row;
+  }
+
+  .yellow {
+    margin-right: 0;
+  }
+
+  .flex__item{
+    max-width: 49%;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .nft__invaders .invader__body{
+    width: 24rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  .nft__invaders .header{
+    justify-content: space-around;
+  }
+  .nft__invaders .header .title{
+    width: 95% !important;
+    padding-left: 1rem;
+    height: auto;
+    min-height: 12.5rem;
+  }
+  .nft__invaders .header .title h2{
+    font-size: 1rem;
+  }
+  .nft__invaders .header .title h3{
+    font-size: .75rem;
+  }
+  .nft__invaders .invader__body .row .col{
+    width: 100%;
+  }
+  .nft__invaders .invader__body .row .col form{
+    width: 100%;
+  }
+  .nft__defenders{
+    min-width: 375px;
+  }
+  .nft__defenders .header button{
+    margin-right: 1rem;
+    font-size: 1rem;
+    width: 8rem;
+    height: 3rem;
+  }
+  .policy h3{
+    font-size: 1rem;
+  }
+  .nft__defenders .header h2{
+    font-size: 1.5rem;
+  }
+  .nft__defenders .body .row .col__1, .nft__defenders .body .row .col__2{
+    width: 95%;
+    margin: auto;
+  }
+  .collaboration{
+    width: 100%;
+  }
+  .collaboration .header{
+    width: 90%;
+  }
+  .collaboration .header h1 {
+    font-size: 1.5rem;
+  }
+  .collaboration .body .row .col1, .collaboration .body .row .col2{
+    width: 95%;
+    margin-bottom: 1.5rem;
+  }
+  .collaboration .crypto__raggies{
+    padding: 2.3rem 1rem;
+  }
+  .invaders__team .body .row .col {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .our__partner .body .row .col {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .our__partner .row2 .col{
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+}
